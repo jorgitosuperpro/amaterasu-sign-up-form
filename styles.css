@@ -1,0 +1,9 @@
+@font-face {
+    font-family: open-sans;
+    src: url(/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    background-image: url(images/jordan-duca-aOqEXM_zI_4-unsplash.jpg); 
+    background-size: cover;
+}
