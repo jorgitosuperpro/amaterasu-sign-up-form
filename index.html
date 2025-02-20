@@ -9,8 +9,8 @@
 <body>
     <div id="background-image">
         <div id="background-title">
-            <img src="images/amterasulogo.jpeg" id="logo">    
-            <h1>Amaterasu Academy</h1>
+            <img src="images/amterasulogo.jpeg" id="logo" style="border-radius: 5px;">    
+            <h1>Amaterasu<br> Academy</h1>
         </div>
     </div>
     <div id="right">    
@@ -24,7 +24,7 @@
         </div>
         <div id="sign-up-form">
             <h3>
-                Fill out the blanks
+                Let's do this!
             </h3>
             <form action="/my-handling-form-page" method="post">
                 <div class="names">
@@ -60,13 +60,13 @@
                         <label for="password">
                             <span>Password</span>
                         </label>
-                        <input type="password" id="password" name="user_password"/>
+                        <input type="password" id="password" name="user_password" required/>
                     </p>
                     <p>
                         <label for="confirmpassword">
                             <span>Confirm Password</span>
                         </label>
-                        <input type="password" id="confirmpassword" name="user_confirmpassword"/>
+                        <input type="password" id="confirmpassword" name="user_confirmpassword" required/>
                     </p>
                 </div>
             </form>

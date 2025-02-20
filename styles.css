@@ -119,8 +119,46 @@ div p {
     border-color: #596D48;
 }
 
-#reminder-login {
-    margin-left: 50px;
+
+input {
+    width: 200px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    box-sizing: border-box;
 }
 
+input:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+input[id="password"]:required {
+    border: 2px solid red;
+}
+
+input[id="password"]:required:valid {
+    border: 2px solid #596D48;
+}
+
+input[id="confirmpassword"]:required {
+    border: 2px solid red;
+}
+
+input[id="confirmpassword"]:required:valid {
+    border: 2px solid #596D48;
+}
+
+#reminder-login {
+    display: inline;
+    margin-left: 50px;
+    font-family: 'MyWebFont';
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-family: 'MyWebFont';
+    font-weight: bold;
+}
