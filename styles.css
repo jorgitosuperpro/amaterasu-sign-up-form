@@ -1,6 +1,7 @@
 @font-face {
-    font-family: open-sans;
-    src: url(/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: 'MyWebFont';
+    src: local('opensans'),
+    url(fonts/OpenSans-VariableFont_wdth,wght.ttf) format('truetype');
 }
 
 body {
@@ -17,7 +18,109 @@ body {
 
 }
 
+#background-title {
+    background-color: rgba(0,0,0,.4);
+    display: flex;
+    margin-top: 250px;
+    height: 300px;
+    justify-content: center;
+    margin-top: 200px;
+    align-items: center;
+    gap: 15px;
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    /*margin-top: 75px;*/
+}
+
+h1 {
+    /*margin-left: 50px;
+    margin-top: 100px;*/
+    color: white;
+    font-family: 'MyWebFont';
+
+}
+
 #right {
     display: flex;
-    margin-left: auto;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250);
 }
+
+#introduction {
+    justify-content: flex-start;
+    width: 1200px;
+    font-family: 'MyWebFont';
+    height: 300px;
+    
+}
+
+#introduction h2 {
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+#sign-up-form {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'MyWebFont';
+}
+
+div h3 {
+    margin-left: 50px;
+    font-family: 'MyWebFont';
+}
+
+div p {
+    display: flex;
+    flex-direction: column;
+}
+
+.names {
+    display: flex;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+.email-tel {
+    display: flex;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+.passwords {
+    display: flex;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+
+
+#createaccount {
+    margin-left: 50px;
+    margin-right: 1000px;
+    margin-top: 20px;
+    background-color: #596D48;
+    border-radius: 10px;
+    font-family: 'MyWebFont';
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    width: 350pxs;
+    border: 2px solid #596D48;
+    transition-duration: 0.4s;
+}
+
+#createaccount:hover {
+    background-color: rgb(250, 250, 250);
+    color: #596D48;
+    border-color: #596D48;
+}
+
+#reminder-login {
+    margin-left: 50px;
+}
+
+
